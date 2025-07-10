@@ -11,6 +11,10 @@
 }
 *
 
+img{
+    width: 100%;
+}
+
 /* shared style */
 
 .btn{
@@ -42,6 +46,11 @@ body{
     background-size: cover;
 }
 
+section{
+    max-width: 83%;
+    margin: 116px auto;
+}
+
 .header-section nav{
     max-width: 83%;
     display: flex;
@@ -57,12 +66,49 @@ nav h2{
 
 }
 
+
+/* banner  section style */
 .banner-section{
     text-align: center;
-    margin-top: 150px ;
+    margin: 150px auto ;
 }
 .banner-section h1{
     font-size: 65px;
     margin-bottom: 40px;
 }
 
+
+/* action section style */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-content{
+    max-width: 50%;
+}
+
+.action-content h3{ 
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+
+}
+
+.action-content p{
+    font-size: 24px;
+    font-weight: normal;
+    color: #25243250;
+    margin-bottom: 23px;
+
+}
+
+.action-image{
+    max-width:40%;
+    height: 330px;
+    width: 400px;
+    border-radius: 48px;
+    background-image: url("../Assets/wc-big.png");
+    background-size: cover;
+}
