@@ -145,3 +145,70 @@ nav h2{
     font-size: 20px;
     color: #00000050;
 }
+
+.feedback-header-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.feedback-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.feedback-card{
+    padding: 24px 40px 24px 24px;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+}
+
+.ratting{
+    display: flex;
+    max-width: 10%;
+    margin-bottom: 24px;
+    gap:5px
+}
+
+.feedback h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.feedback p{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.user-feedback{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("../Assets/avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.user-comment h6{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.user-comment p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+
+
+
