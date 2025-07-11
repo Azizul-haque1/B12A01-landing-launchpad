@@ -242,3 +242,46 @@ nav h2{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.touch-section{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.touch-section h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+
+.form  label{
+    font-size: 18px;
+    margin-bottom: 210px;
+}
+
+.touch-section form input {
+    border-radius: 10px;
+    border: none;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 32px;
+}
+
+.touch-section form textarea{
+    padding: 20px 32px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form .btn{
+    width: 100%;
+    padding: 19px 100px;
+}
+
