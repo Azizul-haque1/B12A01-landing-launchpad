@@ -25,10 +25,15 @@ img{
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease,  background-color  .3s ease;
 }
 
 .btn:hover{
-    border:2px solid green
+    background-color: red;
+    transform: scale(1.05);
+    
+    
 
 }
 
@@ -119,6 +124,7 @@ nav h2{
     background-size: cover;
 }
 
+/* productive style  seciton */
 .productive-section{
     text-align: center;
     background-color: #4E47FF10;
@@ -151,6 +157,9 @@ nav h2{
     font-size: 20px;
     color: #00000050;
 }
+
+
+/* feedback  section  style */
 
 .feedback-header-title{
     text-align: center;
@@ -215,6 +224,7 @@ nav h2{
     color: #B3B3B3;
 }
 
+/* ready seciton  style */
 
 .ready-section{
     text-align: center;
@@ -247,6 +257,9 @@ nav h2{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* touch  section style */
 
 .touch-section{
     display: flex;
