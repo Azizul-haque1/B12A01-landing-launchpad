@@ -27,6 +27,11 @@ img{
     border: none;
 }
 
+.btn:hover{
+    border:2px solid green
+
+}
+
 
 
 /* header section  style */
@@ -260,6 +265,7 @@ nav h2{
 .form  label{
     font-size: 18px;
     margin-bottom: 210px;
+    font-weight: bold;
 }
 
 .touch-section form input {
@@ -285,3 +291,35 @@ form .btn{
     padding: 19px 100px;
 }
 
+/* footer section  style */
+
+.footer-section{
+    background-color: white;
+    text-align: center;
+}
+
+.footer-container{
+    max-width: 83%;
+    margin: 0 auto;
+    padding: 104px 0;
+}
+.footer-container h2{
+    color: var(--primaryColor);
+    font-size: 100px;
+    margin-bottom: 10px;
+
+
+}
+.footer-container p{
+    color: #8987A1;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-container ul li{
+    display: inline;
+    font-size: 16px;
+    margin-left: 20px;
+    list-style: none;
+    color: #8987A1;
+}
