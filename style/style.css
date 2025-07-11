@@ -34,6 +34,7 @@ img{
 body{
     /* font-family: "Raleway", sans-serif; */
     min-width: 100vh;
+    background-color: #F5F8FF;
 }
 
 .header-section{
@@ -210,5 +211,34 @@ nav h2{
 }
 
 
+.ready-section{
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 14px;
+}
+.ready-section h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
+.ready-section p{
+    font-size: 16px;
+    color: #00000050;
+    margin-bottom: 20px;
+}
 
+.ready-section .ready-image{
+    max-width: 60%;
+    background-color: rebeccapurple;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 48px;
+    background-image: url("../Assets/wc-big.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
